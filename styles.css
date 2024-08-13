@@ -8,18 +8,19 @@ main {
 }
 
 #navbar {
-    width: 700px;
+    position: sticky;
+    width: 80%;
     border-right: 1px solid black;
     margin-right: 1px;
     overflow: auto;
     overflow-x: auto;
     overflow-y: auto;
     height: 900px;
+    
 }
 
 .main-section {
-    
-    align-items: right;
+    width: 75%;
     border-left: 1px solid black;
     padding: 35px;
 
@@ -63,4 +64,15 @@ header {
 #title {
     font-size: 26px;
     margin-bottom: 16px;
+}
+
+code {
+    line-height: 25px;
+    display: flex;
+    position: relative;
+    background-color: #ededf3;
+    color: #4d4e53;
+    padding: 10px;
+    padding-left: 25px;
+    margin-left: 15px;
 }
