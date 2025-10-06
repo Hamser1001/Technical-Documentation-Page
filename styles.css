@@ -27,9 +27,7 @@ main {
     border-right: 2px solid #1b1b1d9a;
 }
 
-#doc {
-    /* margin-left: 350px; */
-}
+
 
 .main-section {
     width: 75%;
@@ -130,4 +128,9 @@ article {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+}
+
+::selection {
+  background-color: #575757;  /* highlight background color */
+  color: #181818;             /* highlight text color */
 }
