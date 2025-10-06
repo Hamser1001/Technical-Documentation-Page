@@ -9,8 +9,7 @@ main {
 }
 
 #main-doc {
-    display: inline-flex;
-    margin-left: 20%;
+    margin-left: 250px;
 }
 
 #navbar {
@@ -26,7 +25,6 @@ main {
 
 #doc {
     /* margin-left: 250px; */
-    left: 10%;
     width: calc(100% - 250px);
 }
 
