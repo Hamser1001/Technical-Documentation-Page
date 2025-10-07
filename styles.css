@@ -27,32 +27,18 @@ main {
     border-right: 2px solid #1b1b1d9a;
 }
 
-
-
-.main-section {
-    width: 75%;
-    padding: 35px;
-    background-color: #4d4e5315;
+/* Title in the navbar */
+#title {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
 
-header a {
-    font-size: 16px;
-}
-
-.main-section article {
-    font-size: 32px;
-}
-
-
-p,
-ul {
-    margin: 15px;
-}
-
-header {
-    margin: 0;
-}
-
+/* Navigation links */
 .nav-link {
     display: block;
     padding: 12px 15px;
@@ -61,12 +47,28 @@ header {
     color: white;
 }
 
-.nav-item {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    height: 45px;
-    padding-left: 15px;
+.nav-link:hover {
+    background-color: #2c2c6d71;
+    margin: 0;
+}
+
+.main-section {
+    width: 75%;
+    padding: 35px;
+    background-color: #4d4e5315;
+}
+
+.main-section header {
+    font-size: 32px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+p,
+ul {
+    margin: 15px;
 }
 
 .main-section p,
@@ -76,16 +78,6 @@ header {
     font-weight: 100;
     line-height: 20px;
     color: white;
-}
-
-#title {
-    font-family: "Oswald", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 30px;
-    padding: 12px 15px;
-    margin-bottom: 10px;
-    margin-top: 20px;
 }
 
 code {
@@ -100,12 +92,6 @@ code {
     border-radius: 9px;
 }
 
-
-.nav-link:hover {
-    background-color: #2c2c6d71;
-    margin: 0;
-}
-
 .divider {
     width: 5px;
     cursor: col-resize;
@@ -117,29 +103,26 @@ code {
 }
 
 p,
-header,
 li {
     font-family: "Noto Sans Linear B", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
-
-article {
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-}
-
 ::selection {
-    background-color: #575757;
-    /* highlight background color */
-    color: #181818;
-    /* highlight text color */
+    background-color: #575757; /* highlight background color */
+    color: #181818;           /* highlight text color */
 }
 
 .reference-link {
     text-decoration: none;
     color: #cea754;
+}
+
+@media (max-width: 800px) {
+    #navbar {
+        flex: block;
+        height: auto;
+        width: auto;
+    }
 }
