@@ -40,7 +40,7 @@ header a {
 }
 
 .main-section article {
-    font-size: 28px;
+    font-size: 32px;
 }
 
 
@@ -85,6 +85,7 @@ header {
     font-size: 30px;
     padding: 12px 15px;
     margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 code {
@@ -101,7 +102,7 @@ code {
 
 
 .nav-link:hover {
-    background-color: #2d2d869a;
+    background-color: #2c2c6d71;
     margin: 0;
 }
 
@@ -136,4 +137,9 @@ article {
     /* highlight background color */
     color: #181818;
     /* highlight text color */
+}
+
+.reference-link {
+    text-decoration: none;
+    color: #cea754;
 }
